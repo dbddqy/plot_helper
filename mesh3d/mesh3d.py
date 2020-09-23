@@ -9,7 +9,7 @@ import yaml
 with open("config/mesh3d.yml", 'r') as file:
     conf = yaml.safe_load(file.read())
 
-data_path = conf["data_path"]   # number of photos
+data_path = conf["data_path"]
 k = conf["k"]
 b = conf["b"]
 divide = conf["divide"]
