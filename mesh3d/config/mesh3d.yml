@@ -1,0 +1,11 @@
+# data for plotting the surface
+data_path: "data/Plot.xlsx"
+
+# the section line on xy plane
+k: 1.2
+b: 0.6
+divide: 100
+
+# interpolation method
+# "nearest", "linear" or "cubic"
+method: "cubic"
